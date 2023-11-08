@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
         steps {
-          // Get some code from a GitHub repository
+          // Get some code from a GitHub repository --further comment
           git branch: 'main', url: 'https://github.com/alextristrammoore1/lbg-vat-calculator.git'
         }
     }
